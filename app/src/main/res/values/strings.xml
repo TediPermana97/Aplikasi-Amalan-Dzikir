@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Ayatulkhirzi Al-fatahtemboro</string>
+    <string name="web_dev">https://Codeilmundro.id/</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_more">More Wallpaper</string>
+    <string name="menu_update">Check Update</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_rate">Rate Us</string>
+    <string name="title_search">search</string>
+    <string name="shareit">"Download Amalan Ayatul Khirzi for Android "</string>
+    <string name="admobappid">ca-app-pub-3757849483665076~7550814661</string>
+    <string name="sdk_key_applovin">5UhA2fX7QnsiNAwdmPdJW-QTCSqDx1ssvQm1QC252VUsD0sLAG1-2hpDaqHKsM3ZwH0RlcTNcLKTn-gB_xBeBo</string>
+
+</resources>

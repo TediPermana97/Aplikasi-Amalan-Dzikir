@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hm4"
+    tools:context=".TasbehdigitalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:background="#99B3CF">
+
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="214dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="5"
+                android:background="@drawable/next"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Tasbih Digital"
+                android:gravity="left|center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layAds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-213dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/reset1"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/start1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="156dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bulat21"
+                android:text="Reset"
+                android:textColor="#FAF6F6" />
+
+            <Button
+                android:id="@+id/start1"
+                android:layout_width="159dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="124dp"
+                android:layout_marginEnd="127dp"
+                android:layout_marginBottom="180dp"
+                android:background="@drawable/bulat12"
+                android:hint="Mulai"
+                android:text=""
+                android:textColor="#F6F6F6"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/teks_tampil1"
+                android:layout_width="wrap_content"
+                android:layout_height="95dp"
+                android:layout_alignBottom="@+id/reset1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="1050dp"
+                android:layout_marginEnd="106dp"
+                android:layout_marginBottom="362dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="80sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
